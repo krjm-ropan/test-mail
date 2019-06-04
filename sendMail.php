@@ -18,8 +18,8 @@ try {
     $mail->isSMTP();                                            // Set mailer to use SMTP
     $mail->Host       = 'smtp.yandex.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'krjm-ropani@yandex.com';                     // SMTP username
-    $mail->Password   = 'SatSahib@!12';                               // SMTP password
+    $mail->Username   = 'email';                     // SMTP username
+    $mail->Password   = 'password';                               // SMTP password
     $mail->SMTPSecure = 'ssl';                                  // Enable TLS encryption, `ssl` also accepted
     $mail->Port       =  465 ;                                    // TCP port to connect to
 
